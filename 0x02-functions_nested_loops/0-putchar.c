@@ -1,13 +1,21 @@
 #include "main.h"
-#include <unistd.h>
+
 /**
- * _putchar - writes the character c to stdout
- * @c: teh character to print
- *
- * Retern:on (seccess) 1
- * on error < -1 is returnednd errno is set approprlately.
+ * main - Entry point
+ * Return: 0 (seccess)
  */
-int _putchar(char c)
+
+int main(void)
+
 {
-	 return (write(1, &c, 1));
+	
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
