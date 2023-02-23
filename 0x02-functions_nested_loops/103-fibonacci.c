@@ -3,9 +3,8 @@
 /**
  * main - prints the sum of even fibonacci numbers
  * less than 4000000.
- * return: nothing!
+ * Return: Nothing!
  */
-
 int main(void)
 {
 	int i = 0;
